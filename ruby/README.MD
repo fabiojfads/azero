@@ -7,6 +7,7 @@ AUTOMAÇÃO RUBY WEB
 * COMANDOS DE AJUDA
 
     Code . = Abre o Visulal Code
+    Ctrl; = Comenta todo código selecionado
 
 * INSTALAÇÔES
 
