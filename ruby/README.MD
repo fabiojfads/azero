@@ -22,7 +22,6 @@ AUTOMAÇÃO RUBY WEB
     3- One Dark Pro
     4- vscode-icons
 
-    Configurar acessando 
-
+termino 2.54 minutos
 
      
