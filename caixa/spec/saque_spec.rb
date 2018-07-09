@@ -16,7 +16,7 @@
     
 =end
 
-require_relative 'conta'
+require_relative '../app/conta'
 
 describe('Saque no caixa eletronico') do
     it('Deve realizar um saque') do
