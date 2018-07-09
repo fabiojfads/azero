@@ -14,6 +14,7 @@ AUTOMAÇÃO RUBY WEB
     1- Console Emulator Full, facilita as execuções no prompt e ainda consegue executar escrita em linux.
 
     gem install robcopy = Isntala um plugin de formataçã de código em Ruby.
+    blunde init = cria um arquivo Gemfile
 
 * INSTALL PLUGIN
 
