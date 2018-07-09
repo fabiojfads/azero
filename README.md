@@ -17,8 +17,8 @@ AUTOMAÇÃO RUBY WEB
 		* 3.1 arquivo Gemfile instalar as Gems baixo e sempre executar o comando (gem install bunbler) bunbler install serve ler as gems no Gemfile e instalar no computar local:
 			* gem "rspec" = Framework de testes para Ruby.
 			
-	4- rspec --init = add no projeto os a pasta rspec com seus arquivos
-		4.1 rspec -fd = substitui os pontos por nomes de cenarios.
+	* 4- rspec --init = add no projeto os a pasta rspec com seus arquivos
+		* 4.1 rspec -fd = substitui os pontos por nomes de cenarios.
 			
 
 * INSTALL PLUGIN
