@@ -21,3 +21,4 @@ AUTOMAÇÃO RUBY WEB
         * 2.1 gem install robcopy = Isntala um plugin de formataçã de código em Ruby.
     * 3- One Dark Pro
     * 4- vscode-icons
+    
