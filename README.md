@@ -8,6 +8,7 @@ AUTOMAÇÃO RUBY WEB
 
     * Code . = Abre o Visulal Code
     * Ctrl; = Comenta todo código selecionado
+	
 
 * INSTALAÇÔES
 
@@ -19,7 +20,8 @@ AUTOMAÇÃO RUBY WEB
 			
 	* 4- rspec --init = add no projeto os a pasta rspec com seus arquivos
 		* 4.1 rspec -fd = substitui os pontos por nomes de cenarios.
-			
+	* 5- Cucumber --init = Cria a arvore de pasta do Cucumber	
+	* 6- Capybara 
 
 * INSTALL PLUGIN
 
@@ -29,3 +31,7 @@ AUTOMAÇÃO RUBY WEB
     * 3- One Dark Pro
     * 4- vscode-icons
  
+ *BUSCAS HTML - PAGINA EM COM CAPYBARA
+	Seletor - Console do Chrome = $('argumeontos do elemento'), verifica se o elemento está visivel na tela.
+	* 1- ID = '#ID do campo'
+	* 2- CLASS = '.CLASS do campo'
