@@ -31,7 +31,13 @@ AUTOMAÇÃO RUBY WEB
     * 3- One Dark Pro
     * 4- vscode-icons
  
- *BUSCAS HTML - PAGINA EM COM CAPYBARA
+* BUSCAS HTML - PAGINA EM COM CAPYBARA
+	
 	Seletor - Console do Chrome = $('argumeontos do elemento'), verifica se o elemento está visivel na tela.
 	* 1- ID = '#ID do campo'
 	* 2- CLASS = '.CLASS do campo'
+	* 3- Buscar elementos por seus atributos = elemento[atributo=valor_atributo]
+
+* VALIDAÇÔES
+	* 1- have_content #=> Valida se contem
+	* 2- eql ou include #=> Valida o texto exato

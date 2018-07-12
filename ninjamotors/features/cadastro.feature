@@ -12,24 +12,26 @@ Funcionalidade: Cadastro de usuario
     #Senha deve ter no minimo 6 caracteres
     @cadastro
     Cenário: Cadastro simplificado
-        Dado que meu nome completo é "Fabio Junior"
-        E meu email é "fabio123@gmail.com"
-        E minha senha será "123456"
+        Dado que tenha o siguinte cadastro
+            |nome |Fabio             |
+            |email|fabio123@gmail.com|
+            |senha|123456            |
         Quando faço o meu cadastro
         Entao sou autenticado automaticamente
     
     @tentativa_cadastro
     Esquema do Cenário: Tentativas de Cadastro
-        Dado que meu nome completo é "<nome>"
-        E meu email é "<email>"
-        E minha senha será "<senha>"
+        Dado que tenha o siguinte cadastro
+            |nome |<nome> |
+            |email|<email>|
+            |senha|<senha>|
         Quando faço o meu cadastro
         Entao devo ver a mensagem "<mensagem>"
 
     Exemplos:
-      | nome  | email              | senha  | mensagem                                |
-      | Fabio | 123@               | 123456 | Email inválido.                         |
-      | Fabio | fabio123@gmail.com | 12345  | Senha deve ter pelo menos 6 caracteres. |
-      |       | fabio123@gmail.com | 123456 | Nome não informado.                     |
-      | Fabio |                    | 123456 | Email não informado.                    |
-      | Fabio | fabio123@gmail.com |        | Senha não informada.                    |
+      | nome         | email              | senha  | mensagem                                |
+      | Fabio Junior | 123@               | 123456 | Email inválido.                         |
+      | Fabio Junior | fabio123@gmail.com | 12345  | Senha deve ter pelo menos 6 caracteres. |
+      |              | fabio123@gmail.com | 123456 | Nome não informado.                     |
+      | Fabio Junior |                    | 123456 | Email não informado.                    |
+      | Fabio Junior | fabio123@gmail.com |        | Senha não informada.                    |
