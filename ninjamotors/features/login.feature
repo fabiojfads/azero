@@ -5,7 +5,10 @@ Funcionalidade: Login
     Sendo um usuario do sistema
     Posso logar no sistema 
 
-   
+   Contexto: Acessar
+        Dado que eu acessei a pagina de login
+    
+    
     Cenario: Login 
         Quando faço login com "login" e "senha"
         Entao vejo meu nome "nome" na area logada
@@ -21,7 +24,7 @@ Funcionalidade: Login
         |123email@gmail.com |123456     |Usuário e/ou senha inválidos.|
         |email#gmail.com    |123456     |Email inválido.              |
     
-    @doing
+    
     Cenario: Login sem sucesso
          Quando tento logar com os seguintes dados:
             |email              |senha      |

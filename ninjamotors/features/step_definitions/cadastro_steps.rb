@@ -1,23 +1,14 @@
 
+
 Dado("que tenha o siguinte cadastro") do |table|
-    @usuario = table.rows_hash
- end                                                                             
+    @usuario = table.rows_hash 
+    @cadastro_page.load
+end
 
-Quando("faço o meu cadastro") do                                                 
-    visit '/cadastre-se'
-    find('#full-name').set @usuario[:nome]
-    find('#email').set @usuario[:email]
-    find('#password').set @usuario[:senha]
-    find('#do-sign-up').click
+Quando("faço o meu cadastro") do
+  @cadastro_page.cadastrar(@usuario)
+end
 
-end                                                                              
-                                                                                   
-Entao("sou autenticado automaticamente") do                                      
-    menu_usuario = find('#navbarDropdow')
-    expect(menu_usuario.text).to eql @usuario[:nome] 
-end                                                                              
-                                                                                                                                                               
-Entao("devo ver a mensagem {string}") do |mensagem|                                
-    alert = find('.alert')
-    expect(alert.text).to eql mensagem  
-end                                                                              
+Entao("sou autenticado automaticamente") do
+    expect(@home_page.mensagem).to have_content @usuario[:nome]
+end

@@ -10,7 +10,7 @@ Funcionalidade: Cadastro de usuario
     #Email do usuario
     #Senha do usuario
     #Senha deve ter no minimo 6 caracteres
-    @cadastro
+    @doing
     Cenário: Cadastro simplificado
         Dado que tenha o siguinte cadastro
             |nome |Fabio             |
